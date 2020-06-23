@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=FractalElement
+comment0.text=\r\n\ The\ class\ FractalElement\ stores\ information\ about\ one\ piece\ of\ the\ fractal\ to\ be\ drawn.\r\n\ It\ also\ has\ a\ method\ to\ draw\ the\ element\ with\ the\ stored\ data.\r\n\r\n\ @author\ \ Valerie\ Foster\r\n\ @version\ 3/6/2018\r\n
+comment1.params=x\ y\ size\ color
+comment1.target=FractalElement(int,\ int,\ int,\ java.awt.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ FractalElement\r\n\ \r\n\ @param\ \ \ x\ \ \ \ \ \ \ an\ x\ coordinate\ for\ the\ FractalElement,\ an\ Integer\r\n\ @param\ \ \ y\ \ \ \ \ \ \ a\ y\ coordinate\ for\ the\ FractalElement,\ an\ Integer\r\n\ @param\ \ \ size\ \ \ \ a\ size\ of\ the\ FractalElement,\ an\ Integer\r\n\ @param\ \ \ color\ \ \ a\ color\ for\ the\ FractalElement,\ a\ Color\r\n
+comment2.params=
+comment2.target=int\ getX()
+comment2.text=\r\n\ An\ accessor\ method\ -\ returns\ the\ x\ coordinate\ for\ this\ fractal\ element\ to\ be\ drawn\ at\r\n\r\n\ @return\ \ \ \ an\ x\ coordinate\ for\ the\ FractalElement,\ an\ Integer\r\n
+comment3.params=
+comment3.target=int\ getY()
+comment3.text=\r\n\ An\ accessor\ method\ -\ returns\ the\ y\ coordinate\ for\ this\ fractal\ element\ to\ be\ drawn\ at\r\n\r\n\ @return\ \ \ \ a\ y\ coordinate\ for\ the\ FractalElement,\ an\ Integer\r\n
+comment4.params=
+comment4.target=int\ getSize()
+comment4.text=\r\n\ An\ accessor\ method\ -\ returns\ the\ size\ for\ this\ fractal\ element\ to\ be\ drawn\ with\r\n\r\n\ @return\ \ \ \ a\ size\ of\ the\ FractalElement,\ an\ Integer\r\n
+comment5.params=
+comment5.target=java.awt.Color\ getColor()
+comment5.text=\r\n\ An\ accessor\ method\ -\ returns\ the\ color\ for\ this\ fractal\ element\ to\ be\ drawn\ with\r\n\r\n\ @return\ \ \ \ a\ color\ for\ the\ FractalElement,\ an\ Color\r\n
+comment6.params=g
+comment6.target=void\ draw(java.awt.Graphics)
+comment6.text=\r\n\ This\ method\ takes\ a\ Graphics\ element\ as\ input\ and\ draws\ a\ circle\ with\ the\ characteristics\ of\ the\ instance\ variables\r\n\r\n\ @param\ \ \ g\ \ \ a\ Graphics\ element\ to\ draw\ with\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\ \r\n\ Creates\ and\ returns\ a\ string\ representation\ of\ this\ fractal\ element\r\n\ \r\n\ @return\ \ a\ String\ showing\ basic\ information\ about\ the\ FractalElement\r\n
+numComments=8

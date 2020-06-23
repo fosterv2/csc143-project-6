@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Drawing
+comment0.text=\r\n\ The\ class\ Drawing\ generates\ a\ window\ with\ the\ prickly\ pear\ cactus\ fractal\ created\ from\ the\ FractalGen\ class\ by\ making\ an\ inner\ class\r\n\ that\ extends\ JPanel\ and\ overriding\ JPanel's\ paintComponent\ method.\ It\ also\ implements\ the\ Observer\ interface\ and\ repaints\ the\ fractal\r\n\ every\ time\ it\ is\ notified\ of\ changes\ from\ it's\ Subject.\r\n\r\n\ @author\ \ Valerie\ Foster\r\n\ @version\ 3/6/2018\r\n
+comment1.params=subject
+comment1.target=Drawing(Subject)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Drawing\r\n\ \r\n\ @param\ \ \ subject\ \ \ \ \ a\ Subject\ for\ this\ class\ to\ observe\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ A\ method\ overriden\ from\ the\ interface,\ it\ is\ called\ by\ it's\ Subject\ to\ be\ notified\ of\ any\ changes\r\n
+numComments=3

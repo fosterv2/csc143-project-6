@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Observer
+comment0.text=\r\n\ The\ interface\ Observer\ is\ designed\ to\ be\ implemented\ by\ a\ class\ that\ would\ need\ to\ be\ notified\ about\ changes\ in\ a\ Subject\ class.\r\n\r\n\ @author\ \ Valerie\ Foster\r\n\ @version\ 3/6/2018\r\n
+comment1.params=
+comment1.target=void\ update()
+numComments=2

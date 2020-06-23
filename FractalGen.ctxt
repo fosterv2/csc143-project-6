@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=FractalGen
+comment0.text=\r\n\ The\ class\ FractalGen\ is\ mainly\ responsible\ for\ using\ recursion\ to\ calculate\ FractalElements\ to\ create\ a\ prickly\ pear\ cactus\ fractal\r\n\ with\ the\ characteristics\ of\ the\ given\ instance\ data\ set\ when\ the\ setData\ method\ is\ called.\ It\ also\ implements\ the\ Subject\ interface;\r\n\ so\ it\ has\ an\ ArrayList\ of\ Observers\ associated\ with\ it,\ which\ it\ keeps\ updated\ of\ changes\ to\ itself.\r\n\r\n\ @author\ \ Valerie\ Foster\r\n\ @version\ 3/6/2018\r\n
+comment1.params=
+comment1.target=FractalGen()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ FractalGen\r\n
+comment2.params=x\ y\ rad\ ori\ depthRemain
+comment2.target=void\ calcShapes(int,\ int,\ int,\ double,\ int)
+comment2.text=\r\n\ This\ private\ recusive\ method\ generates\ the\ ArrayList\ of\ FractalElements\ by\ adding\ a\ FractalElement\ created\ with\ the\ data\ from\ the\r\n\ parameters\ and\ the\ cactus\ color,\ then\ it\ uses\ math\ to\ calculate\ where\ the\ next\ two\ new\ shapes\ should\ be\ drawn.\ Once\ the\ remaining\r\n\ depth\ is\ one\ or\ the\ shape\ is\ too\ small,\ it\ adds\ a\ FractalElement\ with\ the\ pear\ color\ and\ stops\ recursing.\r\n\r\n\ @param\ \ \ x\ \ \ \ \ \ \ \ \ \ \ an\ x\ coordinate,\ an\ Integer\r\n\ @param\ \ \ y\ \ \ \ \ \ \ \ \ \ \ a\ y\ coordinate,\ an\ Integer\r\n\ @param\ \ \ rad\ \ \ \ \ \ \ \ \ a\ radius,\ an\ Integer\r\n\ @param\ \ \ ori\ \ \ \ \ \ \ \ \ an\ orientation,\ a\ Double\r\n\ @param\ \ \ depthRemain\ a\ depth\ remaining,\ an\ Integer\r\n
+comment3.params=depth\ ratio\ cactusColor\ pearColor
+comment3.target=void\ setData(int,\ double,\ java.awt.Color,\ java.awt.Color)
+comment3.text=\r\n\ This\ method\ sets\ the\ instance\ data\ for\ this\ FractalGen,\ then\ generates\ the\ ArrayList\ of\ FractalElements\ and\ notifies\ it's\ Observers\r\n\ \r\n\ @param\ \ \ depth\ \ \ \ \ \ \ the\ depth\ to\ draw\ the\ fractal\ to,\ an\ Integer\r\n\ @param\ \ \ ratio\ \ \ \ \ \ \ the\ ratio\ for\ each\ new\ piece\ of\ the\ fractal\ to\ have\ to\ it's\ parent,\ a\ Double\r\n\ @param\ \ \ cactusColor\ the\ color\ for\ most\ of\ the\ fractal\ to\ be\ drawn\ with,\ a\ Color\r\n\ @param\ \ \ pearColor\ \ \ the\ color\ for\ the\ fractal\ pieces\ at\ the\ edges\ to\ be\ drawn\ with,\ a\ Color\r\n
+comment4.params=
+comment4.target=ArrayList\ getData()
+comment4.text=\r\n\ This\ method\ returns\ the\ data\ that\ an\ Observer\ class\ would\ ask\ for\ after\ being\ updated\ in\ this\ "pull"\ model\r\n\r\n\ @return\ \ \ \ the\ ArrayList\ of\ FractalElements\ for\ this\ class\r\n
+comment5.params=obs
+comment5.target=void\ addObs(Observer)
+comment5.text=\r\n\ A\ method\ overriden\ from\ the\ interface,\ it\ adds\ the\ given\ Observer\ to\ the\ ArrayList\ of\ Observers\r\n\ \r\n\ @param\ \ \ \ obs\ \ \ \ an\ Observer\ to\ add\r\n
+comment6.params=obs
+comment6.target=void\ removeObs(Observer)
+comment6.text=\r\n\ A\ method\ overriden\ from\ the\ interface,\ it\ removes\ the\ given\ Observer\ from\ the\ ArrayList\ of\ Observers\r\n\ \r\n\ @param\ \ \ \ obs\ \ \ \ an\ Observer\ to\ remove\r\n
+comment7.params=
+comment7.target=void\ notifyObs()
+comment7.text=\r\n\ A\ method\ overriden\ from\ the\ interface,\ it\ notifies\ all\ of\ it's\ Observers\ by\ calling\ their\ update\ methods\r\n
+numComments=8

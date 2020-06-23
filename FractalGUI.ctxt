@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FractalGUI
+comment0.text=\r\n\ The\ class\ FractalGUI\ generates\ a\ user\ interface\ for\ the\ user\ to\ select\ the\ fractal\ options\ they\ would\ like\ for\ the\ fractal\ to\ draw\ with.\r\n\ It\ uses\ imports\ from\ javax.swing\ to\ make\ things\ like\ JLabels,\ JButtons,\ and\ JSliders\ for\ the\ user\ to\ select\ their\ choice\ of\r\n\ depth,\ ratio,\ cactus\ color,\ and\ pear\ color.\r\n\r\n\ @author\ \ Valerie\ Foster\r\n\ @version\ 3/6/2018\r\n
+comment1.params=fracGen
+comment1.target=FractalGUI(FractalGen)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ FractalGUI\r\n
+comment2.params=event
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=5
